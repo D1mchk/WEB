@@ -1,0 +1,53 @@
+body {  
+    margin: 0;
+    background:#23255c;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#teams-txt {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-weight:bold;
+    font-size:xx-large;
+    margin-left: 40px;
+}
+
+.score {
+    background-color: black;
+    border-radius: 10px;
+    width: 200px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.score-txt {
+    margin-top: 130px;
+    font-family: "Teko", sans-serif;
+    font-size: 120px;
+    
+}
+
+.btns {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;    
+}
+
+#btn {
+    font-family: "Teko", sans-serif;
+    font-size: x-large;
+    color: #dcdcdc;
+    background-color: #23255c;
+    border:1px solid #dcdcdc;
+    border-radius:5px ;
+    width: 50px;
+    height: 45px;
+    
+}
